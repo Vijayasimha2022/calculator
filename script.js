@@ -21,6 +21,12 @@ function process(e) {
         screen.textContent = display;
 
     }
+        else if (pressed_value == 'C') {
+        display="";
+        screen.textContent = display;
+
+    }
+
 
     else {
         display += pressed_value;
