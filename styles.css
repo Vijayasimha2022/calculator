@@ -1,0 +1,34 @@
+#calculator{
+    margin: auto;
+    border: 2px solid black;
+    padding: 1em;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(87, 67, 144);
+
+
+}
+
+#calculator td{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: gray;
+
+}
+
+#calculator #display{
+    height: 150px;
+    border: 1px solid black;
+    background-color: rgb(89, 138, 222);
+    border-radius: 10px;
+    text-align: right;
+    vertical-align: bottom;
+    font-size: 2em;
+}
+
+#calculator td:hover{
+    background-color: black;
+    color: white;
+}
